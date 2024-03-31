@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: row; margin-bottom: 20px">
+      <div style="background-color: red">div 1</div>
+      <div style="background-color: green">div 2</div>
+    </div>
+    <div style="display: flex; flex-direction: row; margin-bottom: 20px">
+      <div style="background-color: red">div 1</div>
+      <div style="background-color: green">
+        div 2
+        <p>sdf</p>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-bottom: 20px">
+      <div style="background-color: red; flex: 1">100px</div>
+      <div style="background-color: green; flex: 1">flex : 1</div>
+      <div style="background-color: rgb(0, 11, 128); flex: 1">flex : 1</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+        height: 70px;
+        border-style: solid;
+        border-radius: 2px;
+        border-color: black;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightgrey; width: 100px">100px</div>
+      <div style="background-color: lightskyblue; width: 100px">100px</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+        height: 70px;
+        border-style: solid;
+        border-radius: 2px;
+        border-color: black;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightgrey; width: 100px">100px</div>
+      <div style="background-color: lightskyblue; width: 100px">100px</div>
+    </div>
+  </body>
+</html>
